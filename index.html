@@ -52,10 +52,12 @@
             const password = document.getElementById('password').value;
             //set the session on the login page  
             if (username === 'myusername' && password === 'mypassword') {
-                //sessionStorage.setItem("AuthenticationState", "Authenticated");
+                
+             //sessionStorage.setItem("AuthenticationState", "Authenticated");
                 //sessionStorage.setItem("AuthenticationExpires", Date.now.addHours(1));
-                window.location.replace("https://raw.githubusercontent.com/akarthick86/CBI/refs/heads/main/Landing1.html");
+               window.location.replace("Landing1.html");
                 //alert('Login successful!');
+
             } else {
                 alert('Username or password incorrect. Please try again.');
             }
