@@ -44,11 +44,9 @@
         CIB tool is reporting and reconciliation tool designed to assist healthcare providers. </p>
      <p>By offering real time ,accurate, affordable and secure insights for daily operations management.</p>
      <div style="float:right">
-        <form align="right" name="form1" method="post" action="Logout.html">
-            <label>
-            <input name="submit2" type="submit" id="submit2" value="log out">
-            </label>
-          </form>
+        <form>
+           <input type="submit" value="Logout"> 
+        </form>
         </div>
     <table>
     </table>
@@ -79,6 +77,14 @@
         setTimeout(function() {
             window.location.href = 'index.html'; // Replace 'login.html' with your login page URL
         }, 20000);
+    </script>
+    <script type="text/javascript">
+        const form = document.querySelector('form');
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); // prevent default form submission behavior
+               window.location.replace("index.html");
+                //alert('Login successful!');
+        });
     </script>
 </body>
 </html>
