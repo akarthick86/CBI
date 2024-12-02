@@ -4,16 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Read CSV files with javascript fetch method</title>
+    <title>Claims Business Intelligent Tool</title>
+    <h1>Claims Business Intelligent Tool</h1>
     <style>
+          form {
+            display: inline-block;
+            text-align: left;
+            padding: 20px;
+            box-shadow: 0 0px 0px 0px rgba(19, 35, 47, 0.3);
+        }
+        body {
+            background-image: url("Logo.jpg");
+            background-repeat: no-repeat;
+            background-size: 250px;
+            background-attachment: scroll;
+            background-position-x: right;
+        }
+        label, input {
+            display: block;
+            margin: 5px 0;
+        }
+        input[type="submit"] {
+            margin: 10px 0 0 0;
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
         td {
             border: 2px solid blue;
         }
     </style>
 </head>
 <body>
-    <table>
 
+    <p>
+        CIB tool is reporting and reconciliation tool designed to assist healthcare providers. </p>
+     <p>By offering real time ,accurate, affordable and secure insights for daily operations management.</p>
+     <div style="float:right">
+        <form align="right" name="form1" method="post" action="index.html">
+            <label>
+            <input name="submit2" type="submit" id="submit2" value="log out">
+            </label>
+          </form>
+        </div>
+    <table>
     </table>
     <script type="module">
 //         tutorial link : https://www.youtube.com/watch?v=gnqHNJNc_0A
@@ -36,6 +73,12 @@
 
             })
         })
+    </script>
+     <script>
+        // Redirect to login page after 5 seconds (5000 milliseconds)
+        setTimeout(function() {
+            window.location.href = 'index.html'; // Replace 'login.html' with your login page URL
+        }, 20000);
     </script>
 </body>
 </html>
