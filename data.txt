@@ -1,3 +1,3 @@
-Sl no,Facility Name,Link,Facility ID
-1,MEDSTAR PHARMACY ICAD RESIDENTIAL LLC,<a href="https://app.powerbi.com/reportEmbed?reportId=b0f6c5b4-9e48-4e03-853c-070e4a58f749&autoAuth=true&ctid=91c03647-afa5-499a-9ddf-3775e4c5690c">Clickhere</a>,PF
-2,MEDSTAR PHARMACY SANAIYA AL AIN LLC,,PF
+Sl no,Facility Name,Link Details,Facility ID,Status
+1,MEDSTAR PHARMACY ICAD RESIDENTIAL LLC,<a href="https://app.powerbi.com/reportEmbed?reportId=b0f6c5b4-9e48-4e03-853c-070e4a58f749&autoAuth=true&ctid=91c03647-afa5-499a-9ddf-3775e4c5690c">Click here</a>,PF, Active
+2,MEDSTAR PHARMACY SANAIYA AL AIN LLC,<a href="https://app.powerbi.com/reportEmbed?reportId=27260f87-2c76-47c6-be8f-4bc493bea13e&autoAuth=true&ctid=91c03647-afa5-499a-9ddf-3775e4c5690c">Click here</a>,PF, Active
